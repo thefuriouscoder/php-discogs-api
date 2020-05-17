@@ -1,14 +1,14 @@
 {
-    "name": "ricbra/php-discogs-api",
+    "name": "thefuriouscoder/php-discogs-api",
     "description": "The Discogs API makes it easy for developers to communicate with the Discogs platform",
     "type": "library",
     "keywords": ["discogs", "api"],
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "guzzlehttp/guzzle": "~5.0",
-        "guzzlehttp/guzzle-services": "~0.5.0",
-        "guzzlehttp/oauth-subscriber": "~0.2"
+        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle-services": "^1.1.3",
+        "guzzlehttp/oauth-subscriber": "^0.3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4"
@@ -28,6 +28,6 @@
         }
     },
     "suggest": {
-        "ricbra/discogs-bundle": "For integrating Discogs into Symfony2"
+        "thefuriouscoder/discogs-bundle": "For integrating Discogs into Symfony2"
     }
 }
